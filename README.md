@@ -5,6 +5,8 @@ Developed by Richard Scheuermann, Lynn Schriml, Joane Luciano, Melanie Courtot, 
 
 IDOFLU is currently in the process of being updated and reengineered as an extension of the Virus Infectious Disease Ontology by Shane Babcock, in consultation with Burke Squires and Melanie Courtot.
 
+The OWL files posted here on this repository are developmental versions. For the latest release version, go to: https://bioportal.bioontology.org/ontologies/FLU
+
 IDO-FLU has been applied to databases such as the Influenza Research Database: https://www.fludb.org/brc/home.spg?decorator=influenza
 as well as the Virus Pathogen Database and Analysis Resource (ViPR): https://www.viprbrc.org/brc/home.spg?decorator=vipr 
 
