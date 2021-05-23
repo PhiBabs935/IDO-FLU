@@ -14,7 +14,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/flu.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fluDEV/2021-1-19/flu.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fluDEV/2021-5-23/flu.owl"/>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
         <dc:contributor xml:lang="en">Barry Smith</dc:contributor>
         <dc:contributor>John Beverley</dc:contributor>
@@ -2739,7 +2739,7 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
     <!-- http://edamontology.org/data_1874 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1874">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000512"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -5566,15 +5566,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000947"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000974"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000947"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A long lived plasma cell that secretes IgE.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5609,15 +5609,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000951"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000951"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A short lived plasma cell that secretes IgE.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5692,15 +5692,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000976"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000976"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A short lived plasma cell that secretes IgA. These cells may be found in the bone marrow as well as in the mucosal immune system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5735,15 +5735,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000977"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000977"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A short lived plasma cell that secretes IgG.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5778,15 +5778,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000978"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000975"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000978"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A short lived plasma cell that secretes IgM.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5821,15 +5821,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000985"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000974"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000985"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fully differentiated plasma cell that secretes IgG.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5864,15 +5864,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000986"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000974"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000986"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fully differentiated plasma cell that secretes IgM.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5907,15 +5907,15 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000987"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000974"/>
-        <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
+        <oboInOwl:is_inferred rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000987"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fully differentiated plasma cell that secretes IgA.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:msz</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:msz</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6337,6 +6337,17 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000115>A textual entity refers to a taxon or organism that is based on the normal language of everyday life; this kind of name is often contrasted with the scientific name for the same organism, which is Latinized.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/eupath.owl</obo:IAO_0000412>
+        <rdfs:label>common name of organism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000603 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000603">
@@ -6395,18 +6406,6 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/eupath.owl</obo:IAO_0000412>
         <rdfs:label>specimen collection time post infection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FBdv_00005259 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBdv_00005259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>Temporal subdivision of a developmental process.</obo:IAO_0000115>
-        <obo:IAO_0000117>John Beverley</obo:IAO_0000117>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">generative stage</rdfs:label>
     </owl:Class>
     
 
@@ -6715,7 +6714,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019081"/>
-        <obo:IAO_0000115>Virus translation stage during which Influenza A virus genome copying ocurs, including nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000115>Virus translation stage during which Influenza A virus genome copying occurs, including nucleotide metabolism.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus translation stage</rdfs:label>
     </owl:Class>
@@ -6726,7 +6725,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019081"/>
-        <obo:IAO_0000115>Virus translation stage during which Influenza B virus genome copying ocurs, including nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000115>Virus translation stage during which Influenza B virus genome copying occurs, including nucleotide metabolism.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus translation stage</rdfs:label>
     </owl:Class>
@@ -6737,7 +6736,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019081"/>
-        <obo:IAO_0000115>Virus translation stage during which Influenza C virus genome copying ocurs, including nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000115>Virus translation stage during which Influenza C virus genome copying occurs, including nucleotide metabolism.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus translation stage</rdfs:label>
     </owl:Class>
@@ -6820,7 +6819,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000193"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza A virus or an Influnza A virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing a viral infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza A virus or an Influnza A virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus pathogenesis</rdfs:label>
     </owl:Class>
@@ -6837,7 +6836,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000194"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza B virus or an Influnza B virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing a viral infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza B virus or an Influnza B virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus pathogenesis</rdfs:label>
     </owl:Class>
@@ -6854,7 +6853,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000195"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza C virus or an Influnza C virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing a viral infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza C virus or an Influnza C virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus pathogenesis</rdfs:label>
     </owl:Class>
@@ -7260,6 +7259,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000463"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Infectious pathogen transmissibility involving Influenza A virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus pathogen transmissibility</rdfs:label>
@@ -7271,6 +7276,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000463"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Infectious pathogen transmissibility involving Influenza B virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus pathogen transmissibility</rdfs:label>
@@ -7282,6 +7293,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000463"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Infectious pathogen transmissibility involving Influenza C virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus pathogen transmissibility</rdfs:label>
@@ -7293,6 +7310,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Infectivity where the pathogen is Influenza A virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus infectivity</rdfs:label>
@@ -7304,6 +7327,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Infectivity where the pathogen is Influenza B virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus infectivity</rdfs:label>
@@ -7315,6 +7344,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Infectivity where the pathogen is Influenza C virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus infectivity</rdfs:label>
@@ -7359,6 +7394,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000466"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Virulence where the pathogen is Influenza A virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus virulence</rdfs:label>
@@ -7370,6 +7411,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000466"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11520"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Virulence where the pathogen is Influenza B virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus virulence</rdfs:label>
@@ -7381,6 +7428,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000466"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Virulence where the pathogen is Influenza C virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus virulence</rdfs:label>
@@ -7412,7 +7465,13 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Viral adhesion disposition borne by a functional receptor that is the disposition to participate in an Influenza A virus attachment process</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Viral adhesion disposition borne by a macromolecular part of some Influenza A virus that is the disposition to participate in an Influenza A virus attachment process</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus adhesion disposition</rdfs:label>
     </owl:Class>
@@ -7443,7 +7502,13 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Viral adhesion disposition borne by a functional receptor that is the disposition to participate in an Influenza B virus attachment process</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Viral adhesion disposition borne by a macromolecular part of some Influenza B virus that is the disposition to participate in an Influenza B virus attachment process</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus adhesion disposition</rdfs:label>
     </owl:Class>
@@ -7474,7 +7539,13 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Viral adhesion disposition borne by a functional receptor that is the disposition to participate in an Influenza C virus attachment process</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Viral adhesion disposition borne by a macromolecular part of some Influenza C virus that is the disposition to participate in an Influenza C virus attachment process</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus adhesion disposition</rdfs:label>
     </owl:Class>
@@ -7498,6 +7569,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000199"/>
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000200"/>
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000201"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000249"/>
                                         </owl:unionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
@@ -7522,6 +7594,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000199"/>
                                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000200"/>
                                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000201"/>
+                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000249"/>
                                                                         </owl:unionOf>
                                                                     </owl:Class>
                                                                 </owl:someValuesFrom>
@@ -7546,6 +7619,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000199"/>
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000200"/>
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000201"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000249"/>
                                         </owl:unionOf>
                                     </owl:Class>
                                 </owl:allValuesFrom>
@@ -7570,6 +7644,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000199"/>
                                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000200"/>
                                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000201"/>
+                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLU_0000249"/>
                                                                         </owl:unionOf>
                                                                     </owl:Class>
                                                                 </owl:someValuesFrom>
@@ -7587,7 +7662,7 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Viral disease that has its material basis in either an Influenza A virus disorder, an Influenza B virus disorder, or an Influenza C virus disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>Viral disease that has its material basis in either an Influenza A virus disorder, an Influenza B virus disorder, an Influenza C virus disorder, or an Influenza D virus disorder.</obo:IAO_0000115>
         <obo:IAO_0000116>This is meant to replace the Disease Ontology term. Disease Ontology definitions fail to respect the OBO principle of using Aristotelian definitions.</obo:IAO_0000116>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza</rdfs:label>
@@ -7599,6 +7674,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000175"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Virus penetration disposition borne by a functional receptor complex that is the disposition to participate in an Influenza A virus penetration process.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza A virus penetration disposition</rdfs:label>
@@ -7610,6 +7691,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Virus penetration disposition borne by a functional receptor complex that is the disposition to participate in an Influenza B virus penetration process.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza B virus penetration disposition</rdfs:label>
@@ -7621,6 +7708,12 @@ Would this, and an appropriate parent class, be a good fit for the Vital Signs O
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Virus penetration disposition borne by a functional receptor complex that is the disposition to participate in an Influenza C virus penetration process.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <rdfs:label>Influenza C virus penetration disposition</rdfs:label>
@@ -7651,6 +7744,180 @@ Technically, the cited information concerns a data field, but the class defined 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FLU_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000249">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VIDO_0001122"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511084"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty>
+                                    <rdf:Description>
+                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                                    </rdf:Description>
+                                </owl:onProperty>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000202"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Virus disorder that exists as a result of a process of formation of disorder initiated by Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000250">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VIDO_0001267"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511084"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000254"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Viral adhesion disposition borne by a macromolecular part of some Influenza D virus that is the disposition to participate in an Influenza D virus attachment process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus adhesion disposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000255"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Virus penetration disposition borne by a functional receptor complex that is the disposition to participate in an Influenza D virus penetration process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus penetration disposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001016"/>
+        <obo:IAO_0000115>Virus replication in which Influenza D virus is replicated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001194"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FLU_0000252"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Viral pathogenesis process realization of an infectious structure disposition inhering in an Influenza D virus or an Influnza D virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus pathogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019062"/>
+        <obo:IAO_0000115>Virus attachment stage during which Influenza D virus bonds with a host cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus attachment stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046718"/>
+        <obo:IAO_0000115>Virus penetration stage during which Influenza D virus penetrates a host cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus penetration stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_19076"/>
+        <obo:IAO_0000115>Virus release stage during which Influenza D virus is released from a host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus release stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019068"/>
+        <obo:IAO_0000115>Virus synthesis stage during which components necessary for formation of Influenza D virus combine forming a complete Influenza D virus particle.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus synthesis stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019083"/>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus transcription stage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FLU_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000259">
@@ -7658,6 +7925,234 @@ Technically, the cited information concerns a data field, but the class defined 
         <obo:IAO_0000231>Replaced by VIDO:0001406, &apos;virus passage date&apos;</obo:IAO_0000231>
         <rdfs:label>obsolete virus passage date</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019081"/>
+        <obo:IAO_0000115>Virus translation stage during which Influenza D virus genome copying occurs, including nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus translation stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019061"/>
+        <obo:IAO_0000115>Virus uncoating stage during which Influenza D virus uncoats outer proteins to release genetic material into host cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus uncoating stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000480"/>
+        <obo:IAO_0000115>Infection incidence that is the number of organisms in the population that become infected by Influenza D virus during a specified period of time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000482"/>
+        <obo:IAO_0000115>Infection incidence proportion involving organisms infected by Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus incidence proportion.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000484"/>
+        <obo:IAO_0000115>Infection incidence rate involving agents infected by Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>influenza D virus infection incidence rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000486"/>
+        <obo:IAO_0000115>Infection prevalence involving agents infected by Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>influenza D virus infection prevalence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000463"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Infectious pathogen transmissibility involving Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>influenza D virus pathogen transmissbility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Infectivity where the pathogen is Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus infectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000488"/>
+        <obo:IAO_0000115>Pathogen seroprevalence where the pathogen is Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus seroprevalence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000466"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Virulence where the pathogen is Influenza D virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>Influenza D virus virulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000270">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VIDO_0001190"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11320"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000423"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Respiratory droplet fomite with Influenza A virus part.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>respiratory droplet Influenza A virus fomite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000271">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VIDO_0001190"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11520"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000423"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Respiratory droplet fomite with Influenza B virus part.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>respiratory droplet Influenza B virus fomite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000272">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VIDO_0001190"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11552"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000423"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Respiratory droplet fomite with Influenza C virus part.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>respiratory droplet Influenza C virus fomite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FLU_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000273">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VIDO_0001190"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511084"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000423"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Respiratory droplet fomite with Influenza D virus part.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <rdfs:label>respiratory droplet Influenza D virus fomite</rdfs:label>
     </owl:Class>
     
 
@@ -8016,9 +8511,7 @@ http://eupathdb.org/tutorials/IsolateSubmissionEuPathDBv8.xls
 Moved from &apos;data about a collection location&apos;
 -Shane Babcock</obo:IAO_0000116>
         <obo:IAO_0000119>GROUP: FLU</obo:IAO_0000119>
-        <obo:IAO_0000233>Should this class instead be replaced by the parent class?
-
-See: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
+        <obo:IAO_0000233>See: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
         <rdfs:label>specimen collection latitude GPS</rdfs:label>
     </owl:Class>
     
@@ -8315,7 +8808,7 @@ https://github.com/GenEpiO/genepio/issues/22</obo:IAO_0000233>
     <!-- http://purl.obolibrary.org/obo/FLU_0000825 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000825">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002944"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
@@ -8330,7 +8823,8 @@ https://github.com/GenEpiO/genepio/issues/22</obo:IAO_0000233>
         <obo:IAO_0000115>Suggested definition: Nucleic acid extraction protocol where the relevant nucleic acid fraction is RNA.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <obo:IAO_0000233>This term will be replaced with an equivalently labeled term requested from the Experimental Factor Ontology. See: https://github.com/EBISPOT/efo/issues/940</obo:IAO_0000233>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA extraction protocol</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osbsolete RNA extraction protocol</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8495,19 +8989,11 @@ https://github.com/GenEpiO/genepio/issues/22</obo:IAO_0000233>
     <!-- http://purl.obolibrary.org/obo/FLU_0000856 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000856">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A sequence submitter role is a study personnel role that is repsponsible for sending sequence (DNA, RNA, Protein) data to a repository, usually GenBank.</obo:IAO_0000115>
-        <obo:IAO_0000115>Suggested definition: &quot;An investigation agent role realized by a person that is responsible for submitting sequence (DNA, RNA, protein) data to a repository, usually GenBank.&quot; -SB</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBS:rbs</obo:IAO_0000119>
-        <obo:IAO_0000231>I have obsoleted this term as it appears it can be replaced by OBI&apos;s &apos;sequence annotation reporting role&apos;. It&apos;s parent class &apos;reporting party role&apos; has the alternative term &apos;submitter&apos;, and it has the following example of usage annotation:
-
-&quot;Person who prepares microarray data in MAGE-TAB format and submits to a database, such as ArrayExpress.&quot;
--This implies that the bearer of a sequence annotation reporting role&apos; is someone that submits the sequence annotation to a database.
-
-I am not as certain as to whether the OBI term also replaces &apos;sequence annotator role&apos;. -SB [1/8/2021]</obo:IAO_0000231>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000068"/>
+        <obo:IAO_0000115>Reporting party role realized by a person that is responsible for submitting sequence (DNA, RNA, protein) data to a repository, such as GenBank.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBS:rbs, SB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1252</obo:IAO_0000233>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete sequence submitter role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence submitter role</rdfs:label>
     </owl:Class>
     
 
@@ -8616,6 +9102,7 @@ Either way, this class should be moved to IDO I believe. -Shane Babcock [10/28/2
         <obo:IAO_0000116>This should be moved to a higher ontology. OBI? EUPATH? -SB</obo:IAO_0000116>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <obo:IAO_0000119>EUPATH:0000747 (&apos;DNA extraction date&apos;)</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
         <rdfs:label>extraction date</rdfs:label>
     </owl:Class>
     
@@ -8709,6 +9196,9 @@ Either way, this class should be moved to IDO I believe. -Shane Babcock [10/28/2
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleotide sequencer role is a study personnel role that is performed by a person who determines the genetic sequence for a biomateral.</obo:IAO_0000115>
         <obo:IAO_0000115>Suggested definition: &quot;Worker role realized by a person that is involved in determining the order of nucleotides in a nucleic acid sequence.&quot;</obo:IAO_0000115>
         <obo:IAO_0000116>In revising the definition, I was assuming this role would be executed while using a nucleic acid sequencer. Hence my suggested definiition is based on the definition for OBI:nucleic acid sequencer. -SB [10/20/2020]</obo:IAO_0000116>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286
+
+It appears OBI would not like to proliferate such worker role terms. Considering obseleting this.</obo:IAO_0000233>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleotide sequencer role</rdfs:label>
     </owl:Class>
     
@@ -8907,10 +9397,12 @@ Adding these terms in case</obo:IAO_0000116>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A defined period when the sample was extracted.</obo:IAO_0000115>
         <obo:IAO_0000115>Suggested definition: &quot;Time measurement datum that is the result of measuring the duration of an extraction process.&quot; -SB</obo:IAO_0000115>
-        <obo:IAO_0000116>Move to OBI. -SB</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLU:MK</obo:IAO_0000119>
         <obo:IAO_0000119>FLU:SB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction time</rdfs:label>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286
+
+Move to OBI.</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction duration time</rdfs:label>
     </owl:Class>
     
 
@@ -9093,9 +9585,7 @@ This placement requires discussion though.</obo:IAO_0000116>
 Moved from &apos;data about a collection location&apos;
 -Shane Babcock</obo:IAO_0000116>
         <obo:IAO_0000119>GROUP: FLU</obo:IAO_0000119>
-        <obo:IAO_0000233>Should this class instead be replaced by the parent class?
-
-See: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
+        <obo:IAO_0000233>This class is more specific than the parent class, as confirmed here: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
         <rdfs:label>specimen collection longtitude GPS</rdfs:label>
     </owl:Class>
     
@@ -9283,6 +9773,9 @@ I have imported the OBI term either way. -SB [11/11/2020]</rdfs:comment>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A extractor role is a study personnel role that is performed by a person who extracts genetic material from a biomaterial.</obo:IAO_0000115>
         <obo:IAO_0000115>Suggested: Worker role that is realized by a person who separates the desired component of an input material from the remainder. [SB]</obo:IAO_0000115>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286
+
+It appears OBI would not like to proliferate such worker role terms. Considering obseleting this.</obo:IAO_0000233>
         <rdfs:label>extractor role</rdfs:label>
     </owl:Class>
     
@@ -9640,6 +10133,17 @@ https://github.com/GenEpiO/genepio/issues/22</obo:IAO_0000233>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FLU_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0001003">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001>EFO_0000490: &apos;extraction protocol&apos;</obo:IAO_0100001>
+        <rdfs:label>obsolete extraction protocol</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FLU_0001005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0001005">
@@ -9777,7 +10281,7 @@ Will eventually be moved to an external ontology concerning bird banding and ass
         <obo:IAO_0000116>MC, 20101123: moved from quality of infectious disease to duration</obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">GROUP: FLU</obo:IAO_0000119>
         <obo:IAO_0100001>GENEPIO:symptom duration</obo:IAO_0100001>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolet duration of illness</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duration of illness</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -10345,9 +10849,9 @@ https://github.com/biobanking/biobanking/issues/77</obo:IAO_0000233>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0001913"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The directed killing of a target cell by a T cell through the release of granules containing cytotoxic mediators or through the engagement of death receptors.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:pr</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pr</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11911826</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10734,9 +11238,9 @@ https://github.com/biobanking/biobanking/issues/77</obo:IAO_0000233>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0002456"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process involved in the carrying out of an immune response by a T cell.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000022</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000022</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10773,9 +11277,9 @@ https://github.com/biobanking/biobanking/issues/77</obo:IAO_0000233>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0002460"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An immune response mediated by lymphocytes expressing specific receptors for antigen produced through a somatic diversification process that includes somatic recombination of germline gene segments encoding immunoglobulin superfamily domains. Recombined receptors for antigen encoded by immunoglobulin superfamily domains include T cell receptors and immunoglobulins (antibodies) produced by B cells. The first encounter with antigen elicits a primary immune response that is slow and not of great magnitude. T and B cells selected by antigen become activated and undergo clonal expansion. A fraction of antigen-reactive T and B cells become memory cells, whereas others differentiate into effector cells. The memory cells generated during the primary response enable a much faster and stronger secondary immune response upon subsequent exposures to the same antigen (immunological memory). An example of this is the adaptive immune response found in Mus musculus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:mtg_sensu</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_sensu</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:1405196831</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -11047,6 +11551,56 @@ https://github.com/biobanking/biobanking/issues/77</obo:IAO_0000233>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0009403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009404"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002297"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The chemical reactions and pathways resulting in the formation of toxin, a poisonous compound (typically a protein) that is produced by cells or organisms and that can cause disease when introduced into the body or tissues of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym>toxin anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>toxin biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>toxin formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>toxin synthesis</oboInOwl:hasExactSynonym>
+        <rdfs:label>toxin biosynthetic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:IAO_0000115>The chemical reactions and pathways involving a toxin, a poisonous compound (typically a protein) that is produced by cells or organisms and that can cause disease when introduced into the body or tissues of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym>toxin metabolism</oboInOwl:hasExactSynonym>
+        <rdfs:label>toxin metabolic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>Process that generates the ability of a pathogen to induce disorder in an organism.</obo:IAO_0000115>
+        <obo:IAO_0000116>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder.</obo:IAO_0000116>
+        <obo:IAO_0000116>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, which in the most common case has at least all of the following proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder. 
+
+Pathogenesis does not involve all of (1)-(4) in every case. For instance, in the case of various bacterial pathogens, pathogenesis occurs without (1)-(3) via the secretion of toxins which subsequently cause disorder in some organism.</obo:IAO_0000116>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
+        <oboInOwl:term_editor>Shane Babcock</oboInOwl:term_editor>
+        <rdfs:label xml:lang="en">pathogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0009987 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009987">
@@ -11278,10 +11832,13 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001385"/>
-        <obo:IAO_0000115>Latency process involving a virus, during which the virus lies dormant within host cells, and ending when the virus starts to replicate.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process by which, after initial infection, a virus lies dormant within a cell and viral production ceases. The process ends when the virus switches from latency and starts to replicate.</obo:IAO_0000115>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
         <oboInOwl:hasExactSynonym>phage lysogeny</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Latency process involving a virus, during which the virus lies dormant within host cells, and ending when the virus starts to replicate.
+
+[This was my suggested definition. But this is presumably not correct, given our discussion of the distinction between viral latency and viral dormancy. Requires further discussion. -SB]</rdfs:comment>
         <rdfs:label>viral latency process</rdfs:label>
     </owl:Class>
     
@@ -11414,9 +11971,9 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019724"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process involved with the carrying out of an immune response by a B cell, through, for instance, the production of antibodies or cytokines, or antigen presentation to T cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO_REF:0000022</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000022</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11484,6 +12041,18 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
         <oboInOwl:hasNarrowSynonym>surface antigen variation</oboInOwl:hasNarrowSynonym>
         <rdfs:label>antigenic variation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The attachment of a cell, organism or acellular structure to a substrate, another cell, organism or acellular structure.</obo:IAO_0000115>
+        <obo:IAO_0000116>The textual definition has been modified in IDO to encompass acellular structures.</obo:IAO_0000116>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <rdfs:label>biological adhesion</rdfs:label>
     </owl:Class>
     
 
@@ -11666,7 +12235,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032612"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-1 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11686,7 +12255,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032613"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-10 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11736,7 +12305,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032616"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-13 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11802,21 +12371,21 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032620"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of any member of the interleukin-17 family of cytokines due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:rv</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rv</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Interleukin_17</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032620"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CTLA-8 production</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:BHF</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:BHF</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032620"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Cytotoxic T-lymphocyte-associated antigen 8 production</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:BHF</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:BHF</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11836,7 +12405,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032623"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-2 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11870,7 +12439,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032633"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-4 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11890,7 +12459,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032634"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-5 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11910,7 +12479,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032635"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-6 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11930,7 +12499,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032637"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-8 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11950,7 +12519,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032638"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The appearance of interleukin-9 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12281,7 +12850,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
     <!-- http://purl.obolibrary.org/obo/GO_0044406 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044406">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022610"/>
         <obo:IAO_0000115>Attachment of a symbiont to its host via adhesion molecules, general stickiness etc., either directly or indirectly.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <rdfs:label>adhesion of symbiont to host</rdfs:label>
@@ -12522,56 +13091,56 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein complex composed of two identical immunoglobulin heavy chains of an IgG isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG1 antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG2 antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG2a antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG2b antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG2c antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG3 antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071736"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgG4 antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12592,7 +13161,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071739"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein complex composed of two identical immunoglobulin heavy chains of the IgD isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11282392</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -12600,7 +13169,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071739"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IgD antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12621,14 +13190,14 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071743"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein complex composed of two identical immunoglobulin heavy chains of the IgE isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071743"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IgE antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12651,7 +13220,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071746"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A protein complex composed of two identical immunoglobulin heavy chains of an IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, sometimes complexed with J chain or J chain and secretory component, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16362985</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -12659,19 +13228,19 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071746"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IgA antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071746"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgA1 antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071746"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>IgA2 antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12692,7 +13261,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071754"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A polymer of five or six IgM core units each composed of two identical immunoglobulin heavy chains of the IgM isotype and two identical immunoglobulin light chains, held together by disulfide bonds; the individual IgM core units are held together via disulfide bonds with a single J chain polypeptide acting as a bridge between two of the polymeric units. Circulating IgM is present in the extracellular space, in mucosal areas or other tissues, or in the blood or lymph.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0781765196</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20176268</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -12700,7 +13269,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</rdfs:commen
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0071754"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>IgM antibody</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16440,7 +17009,7 @@ No imports</obo:IAO_0000115>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
@@ -17040,6 +17609,18 @@ No imports</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0000433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000433">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>Disposition borne by a macromolecule that is the disposition to participate in an adhesion process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
+        <rdfs:label>adhesion disposition</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0000434 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000434">
@@ -17170,7 +17751,7 @@ No imports</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/IDO_0000437 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000437">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000433"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17195,12 +17776,12 @@ No imports</obo:IAO_0000115>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IDO_0000619"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IDO_0000655"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
-        <obo:IAO_0000115 xml:lang="en">Disposition borne by a macromolecule that is the disposition to participate in adherence to a host.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Adhesion disposition borne by a macromolecule part of a symbiont that is the disposition to participate in adherence to a host.</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
-        <rdfs:label xml:lang="en">adhesion disposition</rdfs:label>
+        <rdfs:label xml:lang="en">symbiont adhesion disposition</rdfs:label>
     </owl:Class>
     
 
@@ -17368,10 +17949,18 @@ No imports</obo:IAO_0000115>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051234"/>
-                    </owl:Restriction>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009403"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000625"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000626"/>
@@ -17624,7 +18213,7 @@ No imports</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Quality that inheres in a pathogen and is the liklihood that the infectious disposition will be realized upon exposure of a susceptible organism.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Quality that inheres in a pathogen and is the likelihood that the infectious disposition will be realized upon exposure of a susceptible organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
@@ -17642,7 +18231,7 @@ No imports</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Quality that inheres in a pathogen and is the degree to which realizations of the infectious disease caused by the pathogen become severe or fatal.</obo:IAO_0000115>
@@ -18549,12 +19138,6 @@ No imports</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0001353"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0001343"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">One-dimensional temporal region during which a pathogen host bears a contagiousness disposition.</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
@@ -19229,7 +19812,7 @@ This should be pushed to an upper-level ontology.</obo:IAO_0000412>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000433"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -19736,7 +20319,7 @@ This should be pushed to an upper-level ontology.</obo:IAO_0000412>
         </owl:equivalentClass>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IDO_0000617"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
-        <obo:IAO_0000115 xml:lang="en">Material entity part of an extended organism that has some pathogen as part, which participates in the formation of the material entity by infecting the organism.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Material entity that is part of an extended organism that has some pathogen as part, which participates in the formation of the material entity by invading tissues of the organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
@@ -20422,7 +21005,7 @@ This should be pushed to an upper-level ontology.</obo:IAO_0000412>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009405"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002297"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000586"/>
@@ -21359,7 +21942,7 @@ This should be pushed to an upper-level ontology.</obo:IAO_0000412>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">prions</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">viruses</obo:IAO_0000112>
-        <obo:IAO_0000115>Object that is an arrangement of interrelated acellular parts forming a biological unit.</obo:IAO_0000115>
+        <obo:IAO_0000115>Object consisting of an arrangement of interrelated acellular parts forming an acellular biological unit that is able to initiate replication of the structure in a host.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">acellular structure</rdfs:label>
@@ -21633,11 +22216,23 @@ This should be pushed to an upper-level ontology.</obo:IAO_0000412>
     <!-- http://purl.obolibrary.org/obo/IDO_0001111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001112"/>
         <obo:IAO_0000115>Generative stage that is a temporal subdivision of a pathogen developmental process.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">pathogen generative stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>Temporal subdivision of a developmental process.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Beverley</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">generative stage</rdfs:label>
     </owl:Class>
     
 
@@ -22542,6 +23137,21 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0002988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0002988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000111>duration of specimen collection</obo:IAO_0000111>
+        <obo:IAO_0000112>Specimen collection duration of 3 nights that a trap is set out for collection of mosquitoes. Urine collected over a 24 hour period of specimen collection duration.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A time measurement datum that is the count of collection cycles over which a specimen collection process occurs.</obo:IAO_0000115>
+        <obo:IAO_0000118>specimen collection duration</obo:IAO_0000118>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>specimen collection duration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0100533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100533">
@@ -22680,8 +23290,7 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11308">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-        <obo:IAO_0000116>In the previous version of FLU, the subclasses of &apos;Orthomyxoviridae&apos; were instead asserted as subclasses of &apos;ssRNA negative-strand viruses&apos;, which is not how they are currently classified as such in NCBITaxon. These should though be inferred subclasses of &apos;ssRNA negative-strand viruses&apos;. -SB</obo:IAO_0000116>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35301"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>Orthomyxoviridae</rdfs:label>
     </owl:Class>
@@ -22709,7 +23318,7 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197911"/>
-        <obo:IAO_0000412>http://purl.org/obo/owl/NCBITaxon</obo:IAO_0000412>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ncbitaxon.owl</obo:IAO_0000412>
         <oboInOwl:hasExactSynonym>Human Influenza A Virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Influenza virus type A</oboInOwl:hasExactSynonym>
         <rdfs:label>Influenza A virus</rdfs:label>
@@ -22817,6 +23426,28 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ncbitaxon.owl</obo:IAO_0000412>
         <rdfs:label>satellite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1511083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1511083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11308"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ncbitaxon.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym>Influenzavirus D</oboInOwl:hasExactSynonym>
+        <rdfs:label>Deltainfluenzavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1511084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1511084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1511083"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ncbitaxon.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym>Influenza C like virus C/OK</oboInOwl:hasExactSynonym>
+        <rdfs:label>Influenza D virus</rdfs:label>
     </owl:Class>
     
 
@@ -26931,15 +27562,10 @@ This general class was not included, though it seems that &apos;DNA sequence dat
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that is the measure of the latitude coordinate of a site.</obo:IAO_0000115>
         <obo:IAO_0000233>SB [external comment]
-From its alternative term, and the NIAID GSCID-BRC metadata standard it is based on, this OBI term seems to be intended for the same role that FLU:0000776, &apos;specimen collection latitude GPS&apos; was. But if that is the intention, the OBI definition is too broad (as it would apply to the measure of the latitude of any site, not just collection locations).
-
-I suggest that this terms definition needs to be more specific and that the label needs to be specified to its intended extension. What if an ontology were to need a class representing latitude coordinate measurements in general? 
+This term represents latitude coordinate measurements in general (and not just those of specimen collection sites). 
 
 See: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:UBPROP_0000001>A measurement datum that is the measure of the latitude coordinate of a specimen collection site. 
-
-[Assuming that the intended extension of this term is specimen collection locations -SB]</obo:UBPROP_0000001>
         <rdfs:label>latitude coordinate measurement datum</rdfs:label>
     </owl:Class>
     
@@ -26955,16 +27581,11 @@ See: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
         <obo:IAO_0000118>longitude</obo:IAO_0000118>
         <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
         <obo:IAO_0000233>SB [external comment]
-From its alternative term, and the NIAID GSCID-BRC metadata standard it is based on, this OBI term seems to be intended for the same role that FLU:0000929, &apos;specimen collection longitude&apos; was. But if that is the intention, the OBI definition is too broad (as it would apply to the measure of the longitude of any site, not just collection locations).
-
-I suggest that this terms definition needs to be more specific and that the label needs to be specified to its intended extension. What if an ontology were to need a class representing longitude coordinate measurements in general? 
+This terms is intended to represent longitude coordinate measurements in general (not just specimen collection sites).
 
 See: https://github.com/obi-ontology/obi/issues/1277</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:OBI_0001886>Specimen Collection Location - Longitude</obo:OBI_0001886>
-        <obo:UBPROP_0000001>A measurement datum that is the measure of the longtitude coordinate of a specimen collection site.
-
-[Assuming that the intended extension of this term is specimen collection locations -SB]</obo:UBPROP_0000001>
         <dc:source>NIAID GSCID-BRC</dc:source>
         <rdfs:label>longitude coordinate measurement datum</rdfs:label>
     </owl:Class>
@@ -27983,7 +28604,7 @@ The following are NOT conclusions based on data: data themselves; results from p
     <!-- http://purl.obolibrary.org/obo/OBI_0002482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002482">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000111 xml:lang="en">specimen harvest quantity</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that indicates the amount of specimen collected.</obo:IAO_0000115>
@@ -29566,6 +30187,41 @@ editor date: 2017-04-18
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>An abnormal material entity that is part of a patient and hypothesized to be clinically relevant.</obo:IAO_0000115>
+        <obo:IAO_0000232>Example: an abnormal growth, an inflammatory infiltrate, swollen tissue, distension</obo:IAO_0000232>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>physical sign</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An abnormal processual entity occuring in a patient that is hypothesized to be clinically relevant.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>processual sign</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>An abnormal observable quality of a part of a patient that is hypothesized to be clinically relevant.</obo:IAO_0000115>
+        <obo:IAO_0000232>Example: the color of a rash; the shape of a melanoma</obo:IAO_0000232>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <rdfs:label>qualitative sign</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000003">
@@ -29775,7 +30431,6 @@ I added two axioms that are not asserted for this term in ORNASEQ. These need to
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ornaseq.owl</obo:IAO_0000412>
         <obo:UBPROP_0000001>Protocol that provides detailed instructions on how to perform an enzymatic amplification planned process. [SB]</obo:UBPROP_0000001>
         <rdfs:definition>A protocol document that contains detailed instructions on how to perform an enzymatic amplification planned process.</rdfs:definition>
-        <rdfs:label>enzymatic amplification protocol</rdfs:label>
         <rdfs:label xml:lang="en">enzymatic amplification protocol</rdfs:label>
     </owl:Class>
     
@@ -30505,7 +31160,8 @@ I added two axioms that are not asserted for this term in ORNASEQ. These need to
         </rdfs:subClassOf>
         <obo:IAO_0000115>A protein that is a translation product of the Influenza A virus (strain A/Puerto Rico/8/1934 H1N1) NA gene or a 1:1 ortholog thereof. Neuraminidase is an exo-alpha-sialidase on the surface of some viruses that enables the virus to be released from the host cell. [database_cross_reference: PRO:CNA][database_cross_reference: Wikipedia:Viral_neuraminidase]</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/pr.owl</obo:IAO_0000412>
-        <oboInOwl:hasBroadSynonym>sialidase; viral neuraminidase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>sialidase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>viral neuraminidase</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>flu-NA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>influenza virus neuraminidase</oboInOwl:hasExactSynonym>
         <rdfs:comment>Category=gene. Requested by=IEDB. Requested by=ImmPort.</rdfs:comment>
@@ -32386,7 +33042,9 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
         <obo:IAO_0000115>A remex feather that is connected to the manus [ http://en.wikipedia.org/wiki/Flight_feather#Primaries ]</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
         <obo:UBPROP_0000009>these are the longest and narrowest of the remiges (particularly those attached to the phalanges), and they can be individually rotated. These feathers are especially important for flapping flight, as they are the principal source of thrust, moving the bird forward through the air. Most thrust is generated on the downstroke of flapping flight. However, on the upstroke (when the bird often draws its wing in close to its body), the primaries are separated and rotated, reducing air resistance while still helping to provide some thrust</obo:UBPROP_0000009>
-        <rdfs:comment>primary remex; primary flight feather; primary remiges</rdfs:comment>
+        <oboInOwl:hasExactSynonym>primary flight feather</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary remex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary remiges</oboInOwl:hasExactSynonym>
         <rdfs:label>primary remex feather</rdfs:label>
     </owl:Class>
     
@@ -32399,7 +33057,9 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
         <obo:IAO_0000115>A remex feather that is connected to the ulna.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
         <obo:UBPROP_0000008>In some species, the ligaments that bind these remiges to the bone connect to small, rounded projections, known as quill knobs, on the ulna; in other species, no such knobs exist. Secondary feathers remain close together in flight (they cannot be individually separated like the primaries can) and help to provide lift by creating the airfoil shape of the bird&apos;s wing. Secondaries tend to be shorter and broader than primaries, with blunter ends</obo:UBPROP_0000008>
-        <oboInOwl:hasExactSynonym>secondary flight feather; secondary remiges; secondary remex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>secondary flight feather</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>secondary remex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>secondary remiges</oboInOwl:hasExactSynonym>
         <rdfs:label>secondary remex feather</rdfs:label>
     </owl:Class>
     
@@ -32962,47 +33622,39 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000625"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000626"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001016"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001195"/>
-                    </owl:Restriction>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009405"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000603"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000625"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001016"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001268"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Pathogenesis process realization of a pathogenic disposition inhering in a virus or virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing a viral infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>Pathogenesis process realization of a pathogenic disposition inhering in a virus or virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of a virus disorder.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <oboInOwl:term_editor>Shane Babcock</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">viral pathogenesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VIDO_0001195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIDO_0001195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000603"/>
-        <obo:IAO_0000115>Process of establishing an infection in which a virus participates.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
-        <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
-        <rdfs:label xml:lang="en">process of establishing viral infection</rdfs:label>
     </owl:Class>
     
 
@@ -33022,7 +33674,17 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001267"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000433"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019062"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -33032,7 +33694,7 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <obo:IAO_0000115>Cell with an adhesion factor part bearing a viral adhesion disposition</obo:IAO_0000115>
+        <obo:IAO_0000115>Cell with an adhesion factor part bearing an adhesion disposition realized in a virus attachment process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vido.owl"/>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">virus adhesion susceptible cell</rdfs:label>
@@ -33064,10 +33726,38 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Adhesion disposition borne by a macromolecule part of a virus that is the disposition to participate in a virus attachment process</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Symbiont adhesion disposition borne by a macromolecule part of a virus that is the disposition to participate in a virus attachment process</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">viral adhesion disposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIDO_0001268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIDO_0001268">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000626"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002297"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VIDO_0001122"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Appearance of disorder by which a virus disorder comes into existence.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
+        <oboInOwl:term_editor>Shane Babcock</oboInOwl:term_editor>
+        <rdfs:label>appearance of virus disorder</rdfs:label>
     </owl:Class>
     
 
@@ -33202,7 +33892,7 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIDO_0001363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001088"/>
-        <obo:IAO_0000115>Acellular structure having some arrangement of viral components (e.g. viral capsid, viral DNA/RNA), that is clinically abnormal.</obo:IAO_0000115>
+        <obo:IAO_0000115>Acellular structure having some clinically abnormal arrangement of viral components (e.g. viral capsid, viral DNA/RNA).</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">disordered virus</rdfs:label>
@@ -33214,7 +33904,7 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIDO_0001364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001088"/>
-        <obo:IAO_0000115>Acellular structure having some arrangement of protein components, that is clinically abnormal.</obo:IAO_0000115>
+        <obo:IAO_0000115>Acellular structure having some clinically abnormal arrangement of protein components.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">disordered prion</rdfs:label>
@@ -33232,7 +33922,7 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0001343"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000412>One-dimensional temporal region beginning with the establishment of a virus in a host and ending with the first appearance of a virion following viral release.</obo:IAO_0000412>
+        <obo:IAO_0000115>One-dimensional temporal region beginning with the establishment of a virus in a host and ending with the first appearance of a virion following viral release.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
         <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
         <rdfs:label xml:lang="en">eclipse interval</rdfs:label>
@@ -33353,11 +34043,33 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
     <!-- http://purl.obolibrary.org/obo/VIDO_0001394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIDO_0001394">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000438"/>
-        <obo:IAO_0000115>Invasion disposition borne by a macromolecule part of a virus that is the disposition to participate in a virus penetration process.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046718"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>Disposition borne by a macromolecule that is the disposition to participate in a virus penetration process.</obo:IAO_0000115>
         <obo:IAO_0000117>John Beverley</obo:IAO_0000117>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
+        <rdfs:comment>Not sure whether this goes under &apos;invasion disposition&apos; or not. It depends whether that term is only supposed to apply to features of pathogens, or whether invasion factors also apply to cells (e.g. receptor complexes). 
+
+The following seems to be a disposition of viruses: 
+
+Disposition borne by a macromolecule part of a virus that is the disposition to participate in a virus penetration process.
+
+But obviously this is not a disposition of the functional receptor complex, as in the case &apos;SARS-CoV-2 penetration disposition&apos;.</rdfs:comment>
         <rdfs:label>virus penetration disposition</rdfs:label>
     </owl:Class>
     
@@ -34036,6 +34748,19 @@ GO:0019027</obo:IAO_0000119>
         <obo:IAO_0000115>Extraction protocol that specifies the procedure for isolating a virus.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virus isolation protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VIDO_0001437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VIDO_0001437">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A scalar measurement datum that is the measure of the ratio of virions to susceptible cells in a target area.</obo:IAO_0000115>
+        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/vido.owl</obo:IAO_0000412>
+        <rdfs:label>multiplicity of viral infection</rdfs:label>
     </owl:Class>
     
 
@@ -51273,12 +51998,11 @@ Empty Parent Term</obo:VO_0003198>
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <obo:IAO_0000115>Protocol that specifies a procedure for separating a desired component of an input material from the remainder. [External definition: SB]</obo:IAO_0000115>
         <obo:IAO_0000115>The procedure used to obtain something from a mixture or compound by chemical or physical or mechanical means, e.g. DNA/RNA extraction</obo:IAO_0000115>
         <obo:IAO_0000116>This term replaces the equivalently labeled FLU:0001003.</obo:IAO_0000116>
         <obo:IAO_0000117>Jame Malone</obo:IAO_0000117>
-        <obo:IAO_0000117>Shane Babcock (external definition)</obo:IAO_0000117>
         <obo:IAO_0000412>http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
+        <obo:UBPROP_0000001>Protocol that specifies a procedure for separating a desired component of an input material from the remainder.</obo:UBPROP_0000001>
         <rdfs:label>extraction protocol</rdfs:label>
     </owl:Class>
     
@@ -51311,10 +52035,9 @@ Empty Parent Term</obo:VO_0003198>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A protocol description in which a material separation to recover the nucleic acid fraction of an input material is performed</obo:IAO_0000115>
-        <obo:IAO_0000115>Extraction protocol that specifies a procedure for separating and recovering the nucleic acid fraction of an input material. [External definition: -SB]</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <obo:IAO_0000117>Shane Babcock (external definition/OWL axiom)</obo:IAO_0000117>
         <obo:IAO_0000412>http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
+        <obo:UBPROP_0000001>Extraction protocol that specifies a procedure for separating and recovering the nucleic acid fraction of an input material. [SB]</obo:UBPROP_0000001>
         <rdfs:label>nucleic acid extraction protocol</rdfs:label>
     </owl:Class>
     
@@ -51353,6 +52076,29 @@ Empty Parent Term</obo:VO_0003198>
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010959 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010959">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002944"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0666666"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nucleic acid extraction protocol that specifies a procedure for separating and recovering the RNA fraction of an input material. [ http://www.ncbi.nlm.nih.gov/pubmed/31348903 https://orcid.org/0000-0003-0798-114X http://www.ncbi.nlm.nih.gov/pubmed/31159762 ]</obo:IAO_0000115>
+        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
+        <dc:creator>paola</dc:creator>
+        <rdfs:label>RNA extraction protocol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_1000637 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_1000637">
@@ -51368,23 +52114,6 @@ Empty Parent Term</obo:VO_0003198>
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsolete Class</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405 -->
-
-    <owl:Class rdf:about="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>Process that generates the ability of a pathogen to induce disorder in an organism.</obo:IAO_0000115>
-        <obo:IAO_0000116>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder.</obo:IAO_0000116>
-        <obo:IAO_0000116>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, which in the most common case has at least all of the following proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder. 
-
-Pathogenesis does not involve all of (1)-(4) in every case. For instance, in the case of various bacterial pathogens, pathogenesis occurs without (1)-(3) via the secretion of toxins which subsequently cause disorder in some organism.</obo:IAO_0000116>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
-        <oboInOwl:term_editor>John Beverley</oboInOwl:term_editor>
-        <oboInOwl:term_editor>Shane Babcock</oboInOwl:term_editor>
-        <rdfs:label xml:lang="en">pathogenesis</rdfs:label>
     </owl:Class>
     
 
