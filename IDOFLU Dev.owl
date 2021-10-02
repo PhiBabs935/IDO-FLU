@@ -6397,19 +6397,6 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000613 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
-        <obo:IAO_0000115>A specimen collection time measurement datum that is the measure of a time when specimens are collected after an infection starts</obo:IAO_0000115>
-        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/eupath.owl</obo:IAO_0000412>
-        <rdfs:label>specimen collection time post infection</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FLU_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000083">
@@ -6472,7 +6459,7 @@ is acquired.&quot; [https://sora.unm.edu/sites/default/files/27-43%20OB%20Vol%20
     <!-- http://purl.obolibrary.org/obo/FLU_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>A specimen collection time measurement datum that is the measure of a time when specimens are collected after the onset of disease in a host.</obo:IAO_0000115>
         <obo:IAO_0000116>This class replaces FLU:0001015, &apos;post disease onset sample collection period&apos;.</obo:IAO_0000116>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
@@ -6481,7 +6468,9 @@ is acquired.&quot; [https://sora.unm.edu/sites/default/files/27-43%20OB%20Vol%20
 I have requested this class be added to to EUPATH:
 
 https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/118</obo:IAO_0000233>
-        <rdfs:label>specimen collection time post disease onset</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003083</obo:IAO_0100001>
+        <rdfs:label>obsolete specimen collection time post disease onset</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9086,24 +9075,15 @@ Either way, this class should be moved to IDO I believe. -Shane Babcock [10/28/2
     <!-- http://purl.obolibrary.org/obo/FLU_0000865 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000865">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302884"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>Data item specifying the date when some material was extracted from an input material.</obo:IAO_0000115>
         <obo:IAO_0000116>This should be moved to a higher ontology. OBI? EUPATH? -SB</obo:IAO_0000116>
         <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
         <obo:IAO_0000119>EUPATH:0000747 (&apos;DNA extraction date&apos;)</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
-        <rdfs:label>extraction date</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003081</obo:IAO_0100001>
+        <rdfs:label>obsolete extraction date</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9388,7 +9368,7 @@ Adding these terms in case</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/FLU_0000910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000910">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000413"/>
@@ -9402,7 +9382,9 @@ Adding these terms in case</obo:IAO_0000116>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286
 
 Move to OBI.</obo:IAO_0000233>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction duration time</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003082</obo:IAO_0100001>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete extraction duration time</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9435,7 +9417,7 @@ See: https://www.ncbi.nlm.nih.gov/books/NBK293910/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/FLU_0000914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0000914">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -9444,7 +9426,9 @@ See: https://www.ncbi.nlm.nih.gov/books/NBK293910/</obo:IAO_0000116>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Postal address used as a directive for deliveries to a laboratory.</obo:IAO_0000115>
         <obo:IAO_0000116>I changed the textual definition. Re-assigned as a subclass of IAO:postal address. -Shane Babcock (10/18/2020)</obo:IAO_0000116>
-        <rdfs:label>laboratory address</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003085</obo:IAO_0100001>
+        <rdfs:label>obsolete laboratory address</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -23137,21 +23121,6 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IDO_0002988 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0002988">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000111>duration of specimen collection</obo:IAO_0000111>
-        <obo:IAO_0000112>Specimen collection duration of 3 nights that a trap is set out for collection of mosquitoes. Urine collected over a 24 hour period of specimen collection duration.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115>A time measurement datum that is the count of collection cycles over which a specimen collection process occurs.</obo:IAO_0000115>
-        <obo:IAO_0000118>specimen collection duration</obo:IAO_0000118>
-        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label>specimen collection duration</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IDO_0100533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100533">
@@ -28692,6 +28661,109 @@ The following are NOT conclusions based on data: data themselves; results from p
         <obo:IAO_0000234>IDO, VEuPathDB</obo:IAO_0000234>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">surveillance process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000111>duration of specimen collection</obo:IAO_0000111>
+        <obo:IAO_0000112>Specimen collection duration of 3 nights that a trap is set out for collection of mosquitoes. Urine collected over a 24 hour period of specimen collection duration.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A time measurement datum that is the count of collection cycles over which a specimen collection process occurs.</obo:IAO_0000115>
+        <obo:IAO_0000118>specimen collection duration</obo:IAO_0000118>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>specimen collection duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302884"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114>metadata complete</obo:IAO_0000114>
+        <obo:IAO_0000115>A time measurement datum that specifies when some material was extracted from an input material.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, ORCID: 0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000119>FLU, VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>extraction date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000413"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302884"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114>metadata complete</obo:IAO_0000114>
+        <obo:IAO_0000115>A time measurement datum that is the result of measuring the duration of an extraction process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, ORCID: 0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000119>Meredith Keybl, Shane Babcock</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label>extraction duration time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <obo:IAO_0000114>metadata complete</obo:IAO_0000114>
+        <obo:IAO_0000115>A specimen collection time measurement datum that is the measure of a time when specimens are collected after the onset of disease in a host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, ORCID: 0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000119>GROUP:FLU, Shane Babcock</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label>specimen collection time post disease onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <obo:IAO_0000114>metadata complete</obo:IAO_0000114>
+        <obo:IAO_0000115>A specimen collection time measurement datum that is the measure of a time when specimens are collected after an infection starts</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, ORCID: 0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB, EUPATH:0000613</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label>specimen collection time post infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000422"/>
+        <obo:IAO_0000114>metadata complete</obo:IAO_0000114>
+        <obo:IAO_0000115>A postal address used as a directive to deliver something to a laboratory.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, ORCID: 0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000118>laboratory address</obo:IAO_0000118>
+        <obo:IAO_0000119>GROUP:FLU, Shane Babcock</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1286</obo:IAO_0000233>
+        <rdfs:label>laboratory postal address</rdfs:label>
     </owl:Class>
     
 
