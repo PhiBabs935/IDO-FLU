@@ -14,12 +14,13 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/flu.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fluDEV/2021-5-23/flu.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fluDEV/2022-6-14/flu.owl"/>
         <dc:contributor xml:lang="en">Alan Ruttenberg</dc:contributor>
         <dc:contributor xml:lang="en">Barry Smith</dc:contributor>
         <dc:contributor>John Beverley</dc:contributor>
         <dc:contributor xml:lang="en">Lindsay Cowell</dc:contributor>
         <dc:contributor xml:lang="en">Meredith Keybl</dc:contributor>
+        <dc:contributor>Sebastian Duesing</dc:contributor>
         <dc:contributor>Shane Babcock</dc:contributor>
         <dc:creator xml:lang="en">Burke Squires</dc:creator>
         <dc:creator xml:lang="en">Joanne Luciano</dc:creator>
