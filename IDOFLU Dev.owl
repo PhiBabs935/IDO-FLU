@@ -30203,10 +30203,11 @@ addition of has_role restriction</obo:IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
         <obo:IAO_0000115>A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <rdfs:comment>SD: Re-organized under &apos;health care process&apos; as per OGMS update</rdfs:comment>
         <rdfs:label>treatment</rdfs:label>
     </owl:Class>
     
@@ -32852,11 +32853,12 @@ Various OBO ontologies classify it as a process, but I think this is a mistake. 
     <!-- http://purl.obolibrary.org/obo/UBERON_0000477 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000477">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical cluster</obo:IAO_0000111>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical group that has its parts adjacent to one another.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical cluster</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete anatomical cluster</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -36178,10 +36180,11 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
     <!-- http://purl.obolibrary.org/obo/VO_0000497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
         <obo:IAO_0000115>disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/vo.owl</obo:IAO_0000412>
+        <rdfs:comment>SD: Re-organized under treatment 06/2022</rdfs:comment>
         <rdfs:label>disorder treatment</rdfs:label>
     </owl:Class>
     
